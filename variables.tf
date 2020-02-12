@@ -233,6 +233,11 @@ variable "allow_repo_config" {
   default     = "false"
 }
 
+variable "repo_config" {
+  description = "path of repo config."
+  type        = string
+  default     = ""
+}
 # Github
 variable "atlantis_github_user" {
   description = "GitHub username that is running the Atlantis command"

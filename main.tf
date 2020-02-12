@@ -31,6 +31,10 @@ locals {
       value = var.allow_repo_config
     },
     {
+      name  = "REPO_CONFIG"
+      value = var.repo_config
+    },
+    {
       name  = "ATLANTIS_GITLAB_HOSTNAME"
       value = var.atlantis_gitlab_hostname
     },
